@@ -1,0 +1,43 @@
+import java.util.Arrays;
+import java.util.Comparator;
+class Task
+{
+    int start, finish, profit;
+ 
+    Task(int start, int finish, int profit)
+    {
+        this.start = start;
+        this.finish = finish;
+        this.profit = profit;
+    }
+}
+
+public int Averagetime(Task tasks[]){
+        int n = tasks.length;
+        int total = 0;
+        int ave;
+        for (int i=0; i<n-1; i++){
+        total += tasks[i].finish - tasks[i].start;
+}
+        ave = total/n;
+        return ave;        
+}
+
+public int Breaktime(Task tasks[]){
+        schedule!!!
+}
+
+public int[] PriorityDistribution(Task tasks[]){
+int n = tasks.length;
+parray = new int[5];
+int result ;
+for (int i=0; i<n-1; i++){
+int temp = tasks[i].profit - 1;
+parray[temp] += 1;
+} 
+return parray;
+}
+
+public int Conflicttime(Task tasks[]){
+schedule!
+}
